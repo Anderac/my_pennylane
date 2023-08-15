@@ -1,0 +1,717 @@
+Collecting pennylane
+  Downloading PennyLane-0.31.1-py3-none-any.whl (1.5 MB)
+     ---------------------------------------- 1.5/1.5 MB 18.6 MB/s eta 0:00:00
+Collecting numpy<1.24 (from pennylane)
+  Downloading numpy-1.23.5-cp311-cp311-win_amd64.whl (14.6 MB)
+     ---------------------------------------- 14.6/14.6 MB 32.8 MB/s eta 0:00:00
+Collecting scipy (from pennylane)
+  Downloading scipy-1.11.1-cp311-cp311-win_amd64.whl (44.0 MB)
+     ---------------------------------------- 44.0/44.0 MB 16.0 MB/s eta 0:00:00
+Collecting networkx (from pennylane)
+  Downloading networkx-3.1-py3-none-any.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 26.1 MB/s eta 0:00:00
+Collecting rustworkx (from pennylane)
+  Downloading rustworkx-0.13.1-cp311-cp311-win_amd64.whl (1.4 MB)
+     ---------------------------------------- 1.4/1.4 MB 22.6 MB/s eta 0:00:00
+Collecting autograd<=1.5 (from pennylane)
+  Downloading autograd-1.5-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.9/48.9 kB 2.4 MB/s eta 0:00:00
+Collecting toml (from pennylane)
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting appdirs (from pennylane)
+  Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting semantic-version>=2.7 (from pennylane)
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting autoray<=0.6.3,>=0.3.1 (from pennylane)
+  Downloading autoray-0.6.3-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.3/48.3 kB ? eta 0:00:00
+Collecting cachetools (from pennylane)
+  Downloading cachetools-5.3.1-py3-none-any.whl (9.3 kB)
+Collecting pennylane-lightning>=0.31 (from pennylane)
+  Downloading PennyLane_Lightning-0.31.0-cp311-cp311-win_amd64.whl (4.6 MB)
+     ---------------------------------------- 4.6/4.6 MB 36.6 MB/s eta 0:00:00
+Collecting requests (from pennylane)
+  Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+     ---------------------------------------- 62.6/62.6 kB 3.5 MB/s eta 0:00:00
+Collecting typing-extensions (from pennylane)
+  Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting future>=0.15.2 (from autograd<=1.5->pennylane)
+  Downloading future-0.18.3.tar.gz (840 kB)
+     ---------------------------------------- 840.9/840.9 kB 55.4 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting charset-normalizer<4,>=2 (from requests->pennylane)
+  Downloading charset_normalizer-3.2.0-cp311-cp311-win_amd64.whl (96 kB)
+     ---------------------------------------- 96.6/96.6 kB ? eta 0:00:00
+Collecting idna<4,>=2.5 (from requests->pennylane)
+  Downloading idna-3.4-py3-none-any.whl (61 kB)
+     ---------------------------------------- 61.5/61.5 kB 1.7 MB/s eta 0:00:00
+Collecting urllib3<3,>=1.21.1 (from requests->pennylane)
+  Downloading urllib3-2.0.4-py3-none-any.whl (123 kB)
+     ---------------------------------------- 123.9/123.9 kB ? eta 0:00:00
+Collecting certifi>=2017.4.17 (from requests->pennylane)
+  Downloading certifi-2023.7.22-py3-none-any.whl (158 kB)
+     ---------------------------------------- 158.3/158.3 kB ? eta 0:00:00
+Building wheels for collected packages: future
+  Building wheel for future (pyproject.toml) ... done
+  Created wheel for future: filename=future-0.18.3-py3-none-any.whl size=492053 sha256=a808aa18cf06e33e2ddc0043d42388b518e95074d112b92f5963cba56e7aa238
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\da\19\ca\9d8c44cd311a955509d7e13da3f0bea42400c469ef825b580b
+Successfully built future
+Installing collected packages: appdirs, urllib3, typing-extensions, toml, semantic-version, numpy, networkx, idna, future, charset-normalizer, certifi, cachetools, autoray, scipy, rustworkx, requests, autograd, pennylane-lightning, pennylane
+Successfully installed appdirs-1.4.4 autograd-1.5 autoray-0.6.3 cachetools-5.3.1 certifi-2023.7.22 charset-normalizer-3.2.0 future-0.18.3 idna-3.4 networkx-3.1 numpy-1.23.5 pennylane-0.31.1 pennylane-lightning-0.31.0 requests-2.31.0 rustworkx-0.13.1 scipy-1.11.1 semantic-version-2.10.0 toml-0.10.2 typing-extensions-4.7.1 urllib3-2.0.4
+
+[notice] A new release of pip is available: 23.1.2 -> 23.2.1
+[notice] To update, run: python.exe -m pip install --upgrade pip"" 
+Requirement already satisfied: pennylane-lightning in c:\users\nosre\venv\test_env\lib\site-packages (0.31.0)
+Requirement already satisfied: pennylane>=0.30 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-lightning) (0.31.1)
+Requirement already satisfied: numpy<1.24 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (1.23.5)
+Requirement already satisfied: scipy in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (1.11.1)
+Requirement already satisfied: networkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (3.1)
+Requirement already satisfied: rustworkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (0.13.1)
+Requirement already satisfied: autograd<=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (2.10.0)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (5.3.1)
+Requirement already satisfied: requests in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (2.31.0)
+Requirement already satisfied: typing-extensions in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning) (4.7.1)
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd<=1.5->pennylane>=0.30->pennylane-lightning) (0.18.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning) (2023.7.22)
+Requirement already satisfied: pennylane-lightning[gpu] in c:\users\nosre\venv\test_env\lib\site-packages (0.31.0)
+Requirement already satisfied: pennylane>=0.30 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-lightning[gpu]) (0.31.1)
+Collecting pennylane-lightning-gpu (from pennylane-lightning[gpu])
+  Downloading PennyLane-Lightning-GPU-0.31.0.tar.gz (28 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: numpy<1.24 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (1.23.5)
+Requirement already satisfied: scipy in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (1.11.1)
+Requirement already satisfied: networkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (3.1)
+Requirement already satisfied: rustworkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (0.13.1)
+Requirement already satisfied: autograd<=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (2.10.0)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (5.3.1)
+Requirement already satisfied: requests in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (2.31.0)
+Requirement already satisfied: typing-extensions in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-lightning[gpu]) (4.7.1)
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd<=1.5->pennylane>=0.30->pennylane-lightning[gpu]) (0.18.3)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning[gpu]) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning[gpu]) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning[gpu]) (2.0.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-lightning[gpu]) (2023.7.22)
+Building wheels for collected packages: pennylane-lightning-gpu
+  Building wheel for pennylane-lightning-gpu (pyproject.toml): started
+  Building wheel for pennylane-lightning-gpu (pyproject.toml): finished with status 'error'
+Failed to build pennylane-lightning-gpu
+Collecting pennylane-sf
+  Downloading PennyLane_SF-0.29.1-py3-none-any.whl (29 kB)
+Collecting strawberryfields>=0.22 (from pennylane-sf)
+  Downloading StrawberryFields-0.23.0-py3-none-any.whl (4.9 MB)
+     ---------------------------------------- 4.9/4.9 MB 28.5 MB/s eta 0:00:00
+Collecting pennylane<0.30,>=0.19 (from pennylane-sf)
+  Downloading PennyLane-0.29.1-py3-none-any.whl (1.3 MB)
+     ---------------------------------------- 1.3/1.3 MB 16.7 MB/s eta 0:00:00
+Requirement already satisfied: numpy<1.24 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (1.23.5)
+Requirement already satisfied: scipy in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (1.11.1)
+Requirement already satisfied: networkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (3.1)
+Collecting retworkx (from pennylane<0.30,>=0.19->pennylane-sf)
+  Downloading retworkx-0.13.1-py3-none-any.whl (10 kB)
+Requirement already satisfied: autograd in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (2.10.0)
+Requirement already satisfied: autoray>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (5.3.1)
+Requirement already satisfied: pennylane-lightning>=0.28 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (0.31.0)
+Requirement already satisfied: requests in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane<0.30,>=0.19->pennylane-sf) (2.31.0)
+Collecting numba (from strawberryfields>=0.22->pennylane-sf)
+  Downloading numba-0.57.1-cp311-cp311-win_amd64.whl (2.6 MB)
+     ---------------------------------------- 2.6/2.6 MB 41.1 MB/s eta 0:00:00
+Collecting python-dateutil>=2.8.0 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ------------------------------------- 247.7/247.7 kB 14.8 MB/s eta 0:00:00
+Collecting quantum-blackbird>=0.3.0 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading quantum_blackbird-0.5.0-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.0/48.0 kB ? eta 0:00:00
+Collecting sympy>=1.5 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+     ---------------------------------------- 5.7/5.7 MB 33.3 MB/s eta 0:00:00
+Collecting thewalrus>=0.18.0 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading thewalrus-0.20.0.tar.gz (108 kB)
+     ---------------------------------------- 108.6/108.6 kB ? eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: urllib3>=1.25.3 in c:\users\nosre\venv\test_env\lib\site-packages (from strawberryfields>=0.22->pennylane-sf) (2.0.4)
+Collecting quantum-xir>=0.1.1 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading quantum_xir-0.2.2-py3-none-any.whl (27 kB)
+Collecting xanadu-cloud-client>=0.2.1 (from strawberryfields>=0.22->pennylane-sf)
+  Downloading xanadu_cloud_client-0.3.1-py3-none-any.whl (25 kB)
+INFO: pip is looking at multiple versions of pennylane-lightning to determine which version is compatible with other requirements. This could take a while.
+Collecting pennylane-lightning>=0.28 (from pennylane<0.30,>=0.19->pennylane-sf)
+  Downloading PennyLane_Lightning-0.30.0-cp311-cp311-win_amd64.whl (4.6 MB)
+     ---------------------------------------- 4.6/4.6 MB 17.4 MB/s eta 0:00:00
+Collecting six>=1.5 (from python-dateutil>=2.8.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting antlr4-python3-runtime==4.9.2 (from quantum-blackbird>=0.3.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading antlr4-python3-runtime-4.9.2.tar.gz (117 kB)
+     -------------------------------------- 117.2/117.2 kB 7.1 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting lark-parser>=0.11.0 (from quantum-xir>=0.1.1->strawberryfields>=0.22->pennylane-sf)
+  Downloading lark_parser-0.12.0-py2.py3-none-any.whl (103 kB)
+     ---------------------------------------- 103.5/103.5 kB ? eta 0:00:00
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane<0.30,>=0.19->pennylane-sf) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane<0.30,>=0.19->pennylane-sf) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane<0.30,>=0.19->pennylane-sf) (2023.7.22)
+Collecting mpmath>=0.19 (from sympy>=1.5->strawberryfields>=0.22->pennylane-sf)
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ------------------------------------- 536.2/536.2 kB 16.4 MB/s eta 0:00:00
+Collecting dask[delayed] (from thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading dask-2023.8.0-py3-none-any.whl (1.2 MB)
+     ---------------------------------------- 1.2/1.2 MB 25.2 MB/s eta 0:00:00
+Collecting llvmlite<0.41,>=0.40.0dev0 (from numba->strawberryfields>=0.22->pennylane-sf)
+  Downloading llvmlite-0.40.1-cp311-cp311-win_amd64.whl (27.7 MB)
+     --------------------------------------- 27.7/27.7 MB 16.8 MB/s eta 0:00:00
+Collecting fire (from xanadu-cloud-client>=0.2.1->strawberryfields>=0.22->pennylane-sf)
+  Downloading fire-0.5.0.tar.gz (88 kB)
+     ---------------------------------------- 88.3/88.3 kB 2.5 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting pydantic[dotenv]<2 (from xanadu-cloud-client>=0.2.1->strawberryfields>=0.22->pennylane-sf)
+  Downloading pydantic-1.10.12-cp311-cp311-win_amd64.whl (2.1 MB)
+     ---------------------------------------- 2.1/2.1 MB 26.8 MB/s eta 0:00:00
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd->pennylane<0.30,>=0.19->pennylane-sf) (0.18.3)
+Requirement already satisfied: rustworkx==0.13.1 in c:\users\nosre\venv\test_env\lib\site-packages (from retworkx->pennylane<0.30,>=0.19->pennylane-sf) (0.13.1)
+Requirement already satisfied: typing-extensions>=4.2.0 in c:\users\nosre\venv\test_env\lib\site-packages (from pydantic[dotenv]<2->xanadu-cloud-client>=0.2.1->strawberryfields>=0.22->pennylane-sf) (4.7.1)
+Collecting python-dotenv>=0.10.4 (from pydantic[dotenv]<2->xanadu-cloud-client>=0.2.1->strawberryfields>=0.22->pennylane-sf)
+  Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting click>=8.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading click-8.1.6-py3-none-any.whl (97 kB)
+     ---------------------------------------- 97.9/97.9 kB 2.8 MB/s eta 0:00:00
+Collecting cloudpickle>=1.5.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading cloudpickle-2.2.1-py3-none-any.whl (25 kB)
+Collecting fsspec>=2021.09.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading fsspec-2023.6.0-py3-none-any.whl (163 kB)
+     ------------------------------------- 163.8/163.8 kB 10.2 MB/s eta 0:00:00
+Collecting packaging>=20.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+     ---------------------------------------- 48.9/48.9 kB ? eta 0:00:00
+Collecting partd>=1.2.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading partd-1.4.0-py3-none-any.whl (18 kB)
+Collecting pyyaml>=5.3.1 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading PyYAML-6.0.1-cp311-cp311-win_amd64.whl (144 kB)
+     ---------------------------------------- 144.7/144.7 kB ? eta 0:00:00
+Collecting toolz>=0.10.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ---------------------------------------- 55.8/55.8 kB 2.8 MB/s eta 0:00:00
+Collecting importlib-metadata>=4.13.0 (from dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Collecting termcolor (from fire->xanadu-cloud-client>=0.2.1->strawberryfields>=0.22->pennylane-sf)
+  Downloading termcolor-2.3.0-py3-none-any.whl (6.9 kB)
+Collecting colorama (from click>=8.0->dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting zipp>=0.5 (from importlib-metadata>=4.13.0->dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading zipp-3.16.2-py3-none-any.whl (7.2 kB)
+Collecting locket (from partd>=1.2.0->dask[delayed]->thewalrus>=0.18.0->strawberryfields>=0.22->pennylane-sf)
+  Downloading locket-1.0.0-py2.py3-none-any.whl (4.4 kB)
+Building wheels for collected packages: antlr4-python3-runtime, thewalrus, fire
+  Building wheel for antlr4-python3-runtime (pyproject.toml): started
+  Building wheel for antlr4-python3-runtime (pyproject.toml): finished with status 'done'
+  Created wheel for antlr4-python3-runtime: filename=antlr4_python3_runtime-4.9.2-py3-none-any.whl size=144571 sha256=1cf4c8ad0fe5771a5f36ed9baa4054ef68b7d17085884991a1b3078860506c3d
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\02\5e\de\90c5aab11b66f94cf3f381ec55aaf3f2008213a7056310e25f
+  Building wheel for thewalrus (pyproject.toml): started
+  Building wheel for thewalrus (pyproject.toml): finished with status 'done'
+  Created wheel for thewalrus: filename=thewalrus-0.20.0-py3-none-any.whl size=91886 sha256=ec1384e64d3839f047f9b744b43ba8dc36282f20e7f9435febebfa5faef8cad4
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\9e\24\56\f9f79550f4ceb4e2446970a5f11d64c418d8fc5e99708dc02f
+  Building wheel for fire (pyproject.toml): started
+  Building wheel for fire (pyproject.toml): finished with status 'done'
+  Created wheel for fire: filename=fire-0.5.0-py2.py3-none-any.whl size=116950 sha256=cf7fe3412aac5e695b70eceec1a7bbe4ac1d6520c1b2dcae780fc2776539ff53
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\a7\ee\a5\19e91481be8bea594935d137578bfe77d6bf905e4595336f6b
+Successfully built antlr4-python3-runtime thewalrus fire
+Installing collected packages: mpmath, lark-parser, antlr4-python3-runtime, zipp, toolz, termcolor, sympy, six, quantum-xir, pyyaml, python-dotenv, pydantic, packaging, locket, llvmlite, fsspec, colorama, cloudpickle, retworkx, quantum-blackbird, python-dateutil, partd, numba, importlib-metadata, fire, click, xanadu-cloud-client, dask, thewalrus, strawberryfields, pennylane-lightning, pennylane, pennylane-sf
+  Attempting uninstall: pennylane-lightning
+    Found existing installation: PennyLane-Lightning 0.31.0
+    Uninstalling PennyLane-Lightning-0.31.0:
+      Successfully uninstalled PennyLane-Lightning-0.31.0
+  Attempting uninstall: pennylane
+    Found existing installation: PennyLane 0.31.1
+    Uninstalling PennyLane-0.31.1:
+      Successfully uninstalled PennyLane-0.31.1
+Successfully installed antlr4-python3-runtime-4.9.2 click-8.1.6 cloudpickle-2.2.1 colorama-0.4.6 dask-2023.8.0 fire-0.5.0 fsspec-2023.6.0 importlib-metadata-6.8.0 lark-parser-0.12.0 llvmlite-0.40.1 locket-1.0.0 mpmath-1.3.0 numba-0.57.1 packaging-23.1 partd-1.4.0 pennylane-0.29.1 pennylane-lightning-0.30.0 pennylane-sf-0.29.1 pydantic-1.10.12 python-dateutil-2.8.2 python-dotenv-1.0.0 pyyaml-6.0.1 quantum-blackbird-0.5.0 quantum-xir-0.2.2 retworkx-0.13.1 six-1.16.0 strawberryfields-0.23.0 sympy-1.12 termcolor-2.3.0 thewalrus-0.20.0 toolz-0.12.0 xanadu-cloud-client-0.3.1 zipp-3.16.2
+Collecting pennylane-qiskit
+  Downloading PennyLane_qiskit-0.31.0-py3-none-any.whl (28 kB)
+Collecting qiskit>=0.32 (from pennylane-qiskit)
+  Downloading qiskit-0.44.0.tar.gz (8.9 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting qiskit-ibm-runtime (from pennylane-qiskit)
+  Downloading qiskit_ibm_runtime-0.11.3-py3-none-any.whl (128 kB)
+     -------------------------------------- 128.3/128.3 kB 7.9 MB/s eta 0:00:00
+Collecting qiskit-ibm-provider (from pennylane-qiskit)
+  Downloading qiskit_ibm_provider-0.6.3-py3-none-any.whl (239 kB)
+     -------------------------------------- 239.2/239.2 kB 3.6 MB/s eta 0:00:00
+Collecting mthree>=0.17 (from pennylane-qiskit)
+  Downloading mthree-2.5.1-cp311-cp311-win_amd64.whl (1.1 MB)
+     ---------------------------------------- 1.1/1.1 MB 17.9 MB/s eta 0:00:00
+Collecting pennylane>=0.30 (from pennylane-qiskit)
+  Using cached PennyLane-0.31.1-py3-none-any.whl (1.5 MB)
+Requirement already satisfied: numpy in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (1.23.5)
+Requirement already satisfied: networkx>=2.2 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (3.1)
+Requirement already satisfied: scipy>=1.3 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (1.11.1)
+Collecting cython>=0.29 (from mthree>=0.17->pennylane-qiskit)
+  Downloading Cython-3.0.0-cp311-cp311-win_amd64.whl (2.8 MB)
+     ---------------------------------------- 2.8/2.8 MB 19.7 MB/s eta 0:00:00
+Collecting qiskit-terra>=0.21 (from mthree>=0.17->pennylane-qiskit)
+  Downloading qiskit_terra-0.25.0-cp38-abi3-win_amd64.whl (5.1 MB)
+     ---------------------------------------- 5.1/5.1 MB 32.2 MB/s eta 0:00:00
+Collecting qiskit-ibmq-provider>=0.19.2 (from mthree>=0.17->pennylane-qiskit)
+  Downloading qiskit_ibmq_provider-0.20.2-py3-none-any.whl (241 kB)
+     ---------------------------------------- 241.5/241.5 kB ? eta 0:00:00
+Collecting psutil (from mthree>=0.17->pennylane-qiskit)
+  Downloading psutil-5.9.5-cp36-abi3-win_amd64.whl (255 kB)
+     ------------------------------------- 255.1/255.1 kB 15.3 MB/s eta 0:00:00
+Collecting orjson>=3.0.0 (from mthree>=0.17->pennylane-qiskit)
+  Downloading orjson-3.9.4-cp311-none-win_amd64.whl (200 kB)
+     ------------------------------------- 200.9/200.9 kB 12.7 MB/s eta 0:00:00
+Requirement already satisfied: rustworkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.13.1)
+Requirement already satisfied: autograd<=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (2.10.0)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (5.3.1)
+Collecting pennylane-lightning>=0.31 (from pennylane>=0.30->pennylane-qiskit)
+  Using cached PennyLane_Lightning-0.31.0-cp311-cp311-win_amd64.whl (4.6 MB)
+Requirement already satisfied: requests in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (2.31.0)
+Requirement already satisfied: typing-extensions in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (4.7.1)
+Collecting ply>=3.10 (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit)
+  Downloading ply-3.11-py2.py3-none-any.whl (49 kB)
+     ---------------------------------------- 49.6/49.6 kB ? eta 0:00:00
+Requirement already satisfied: sympy>=1.3 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.12)
+Collecting dill>=0.3 (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit)
+  Downloading dill-0.3.7-py3-none-any.whl (115 kB)
+     -------------------------------------- 115.3/115.3 kB 6.6 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.8.0 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (2.8.2)
+Collecting stevedore>=3.0.0 (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit)
+  Downloading stevedore-5.1.0-py3-none-any.whl (49 kB)
+     ---------------------------------------- 49.6/49.6 kB 2.5 MB/s eta 0:00:00
+Collecting requests-ntlm>=1.1.0 (from qiskit-ibm-provider->pennylane-qiskit)
+  Downloading requests_ntlm-1.2.0-py3-none-any.whl (6.0 kB)
+Requirement already satisfied: urllib3>=1.21.1 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-provider->pennylane-qiskit) (2.0.4)
+Collecting websocket-client>=1.5.1 (from qiskit-ibm-provider->pennylane-qiskit)
+  Downloading websocket_client-1.6.1-py3-none-any.whl (56 kB)
+     ---------------------------------------- 56.9/56.9 kB 2.9 MB/s eta 0:00:00
+Collecting websockets>=10.0 (from qiskit-ibm-provider->pennylane-qiskit)
+  Downloading websockets-11.0.3-cp311-cp311-win_amd64.whl (124 kB)
+     -------------------------------------- 124.7/124.7 kB 7.2 MB/s eta 0:00:00
+Collecting ibm-platform-services>=0.22.6 (from qiskit-ibm-runtime->pennylane-qiskit)
+  Downloading ibm-platform-services-0.38.0.tar.gz (254 kB)
+     -------------------------------------- 254.2/254.2 kB 7.9 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd<=1.5->pennylane>=0.30->pennylane-qiskit) (0.18.3)
+Collecting urllib3>=1.21.1 (from qiskit-ibm-provider->pennylane-qiskit)
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+     -------------------------------------- 143.1/143.1 kB 2.8 MB/s eta 0:00:00
+Collecting ibm-cloud-sdk-core<4.0.0,>=3.16.7 (from ibm-platform-services>=0.22.6->qiskit-ibm-runtime->pennylane-qiskit)
+  Downloading ibm-cloud-sdk-core-3.16.7.tar.gz (52 kB)
+     ---------------------------------------- 52.3/52.3 kB ? eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: six>=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from python-dateutil>=2.8.0->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.16.0)
+Collecting requests-ntlm>=1.1.0 (from qiskit-ibm-provider->pennylane-qiskit)
+  Downloading requests_ntlm-1.1.0-py2.py3-none-any.whl (5.7 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (2023.7.22)
+Collecting ntlm-auth>=1.0.2 (from requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit)
+  Downloading ntlm_auth-1.5.0-py2.py3-none-any.whl (29 kB)
+Collecting cryptography>=1.3 (from requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit)
+  Downloading cryptography-41.0.3-cp37-abi3-win_amd64.whl (2.6 MB)
+     ---------------------------------------- 2.6/2.6 MB 33.7 MB/s eta 0:00:00
+Collecting cffi>=1.12 (from cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit)
+  Downloading cffi-1.15.1-cp311-cp311-win_amd64.whl (179 kB)
+     ---------------------------------------- 179.0/179.0 kB ? eta 0:00:00
+Collecting PyJWT<3.0.0,>=2.4.0 (from ibm-cloud-sdk-core<4.0.0,>=3.16.7->ibm-platform-services>=0.22.6->qiskit-ibm-runtime->pennylane-qiskit)
+  Downloading PyJWT-2.8.0-py3-none-any.whl (22 kB)
+Collecting pbr!=2.1.0,>=2.0.0 (from stevedore>=3.0.0->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit)
+  Downloading pbr-5.11.1-py2.py3-none-any.whl (112 kB)
+     -------------------------------------- 112.7/112.7 kB 6.4 MB/s eta 0:00:00
+Requirement already satisfied: mpmath>=0.19 in c:\users\nosre\venv\test_env\lib\site-packages (from sympy>=1.3->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.3.0)
+Collecting pycparser (from cffi>=1.12->cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit)
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     -------------------------------------- 118.7/118.7 kB 6.8 MB/s eta 0:00:00
+Building wheels for collected packages: qiskit, ibm-platform-services, ibm-cloud-sdk-core
+  Building wheel for qiskit (pyproject.toml): started
+  Building wheel for qiskit (pyproject.toml): finished with status 'done'
+  Created wheel for qiskit: filename=qiskit-0.44.0-py3-none-any.whl size=7640 sha256=bd38d9816d2d61c6330c6e73c212709530869e684eb5a76f1c1c65f6491935bf
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\7a\a4\36\917d8a18f80a0ba05a040ebc7625b49cdce2722aa96e2d8c92
+  Building wheel for ibm-platform-services (pyproject.toml): started
+  Building wheel for ibm-platform-services (pyproject.toml): finished with status 'done'
+  Created wheel for ibm-platform-services: filename=ibm_platform_services-0.38.0-py3-none-any.whl size=269285 sha256=92f1247cad8dbdfec93e64dc08737ed5b1396df2aebdb2ca50162c0b392f5a6d
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\45\f1\75\6ff69bfe107ec1445a7b43a33ae204f067663df585b30bd656
+  Building wheel for ibm-cloud-sdk-core (pyproject.toml): started
+  Building wheel for ibm-cloud-sdk-core (pyproject.toml): finished with status 'done'
+  Created wheel for ibm-cloud-sdk-core: filename=ibm_cloud_sdk_core-3.16.7-py3-none-any.whl size=85630 sha256=33f6027f7528f1eb7cf4a0e465f3c7d6cd3ebcf6800a1f0e160c3fcc8a35909a
+  Stored in directory: c:\users\nosre\appdata\local\pip\cache\wheels\9a\6a\a4\51eaeca811e87fc2e669db84e72fd3324d326244c415eece08
+Successfully built qiskit ibm-platform-services ibm-cloud-sdk-core
+Installing collected packages: ply, websockets, websocket-client, urllib3, PyJWT, pycparser, psutil, pbr, orjson, ntlm-auth, dill, cython, stevedore, cffi, qiskit-terra, ibm-cloud-sdk-core, cryptography, requests-ntlm, qiskit, ibm-platform-services, qiskit-ibmq-provider, qiskit-ibm-provider, qiskit-ibm-runtime, mthree, pennylane-lightning, pennylane, pennylane-qiskit
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.0.4
+    Uninstalling urllib3-2.0.4:
+      Successfully uninstalled urllib3-2.0.4
+  Attempting uninstall: pennylane-lightning
+    Found existing installation: PennyLane-Lightning 0.30.0
+    Uninstalling PennyLane-Lightning-0.30.0:
+      Successfully uninstalled PennyLane-Lightning-0.30.0
+  Attempting uninstall: pennylane
+    Found existing installation: PennyLane 0.29.1
+    Uninstalling PennyLane-0.29.1:
+      Successfully uninstalled PennyLane-0.29.1
+Successfully installed PyJWT-2.8.0 cffi-1.15.1 cryptography-41.0.3 cython-3.0.0 dill-0.3.7 ibm-cloud-sdk-core-3.16.7 ibm-platform-services-0.38.0 mthree-2.5.1 ntlm-auth-1.5.0 orjson-3.9.4 pbr-5.11.1 pennylane-0.31.1 pennylane-lightning-0.31.0 pennylane-qiskit-0.31.0 ply-3.11 psutil-5.9.5 pycparser-2.21 qiskit-0.44.0 qiskit-ibm-provider-0.6.3 qiskit-ibm-runtime-0.11.3 qiskit-ibmq-provider-0.20.2 qiskit-terra-0.25.0 requests-ntlm-1.1.0 stevedore-5.1.0 urllib3-1.26.16 websocket-client-1.6.1 websockets-11.0.3
+Requirement already satisfied: pennylane-qiskit in c:\users\nosre\venv\test_env\lib\site-packages (0.31.0)
+Requirement already satisfied: qiskit>=0.32 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (0.44.0)
+Requirement already satisfied: qiskit-ibm-runtime in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (0.11.3)
+Requirement already satisfied: qiskit-ibm-provider in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (0.6.3)
+Requirement already satisfied: mthree>=0.17 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (2.5.1)
+Requirement already satisfied: pennylane>=0.30 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (0.31.1)
+Requirement already satisfied: numpy in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (1.23.5)
+Requirement already satisfied: networkx>=2.2 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-qiskit) (3.1)
+Requirement already satisfied: scipy>=1.3 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (1.11.1)
+Requirement already satisfied: cython>=0.29 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (3.0.0)
+Requirement already satisfied: qiskit-terra>=0.21 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (0.25.0)
+Requirement already satisfied: qiskit-ibmq-provider>=0.19.2 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (0.20.2)
+Requirement already satisfied: psutil in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (5.9.5)
+Requirement already satisfied: orjson>=3.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from mthree>=0.17->pennylane-qiskit) (3.9.4)
+Requirement already satisfied: rustworkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.13.1)
+Requirement already satisfied: autograd<=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (2.10.0)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (5.3.1)
+Requirement already satisfied: pennylane-lightning>=0.31 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (0.31.0)
+Requirement already satisfied: requests in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (2.31.0)
+Requirement already satisfied: typing-extensions in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.30->pennylane-qiskit) (4.7.1)
+Requirement already satisfied: ply>=3.10 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (3.11)
+Requirement already satisfied: sympy>=1.3 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.12)
+Requirement already satisfied: dill>=0.3 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (0.3.7)
+Requirement already satisfied: python-dateutil>=2.8.0 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (2.8.2)
+Requirement already satisfied: stevedore>=3.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (5.1.0)
+Requirement already satisfied: requests-ntlm>=1.1.0 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-provider->pennylane-qiskit) (1.1.0)
+Requirement already satisfied: urllib3>=1.21.1 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-provider->pennylane-qiskit) (1.26.16)
+Requirement already satisfied: websocket-client>=1.5.1 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-provider->pennylane-qiskit) (1.6.1)
+Requirement already satisfied: websockets>=10.0 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-provider->pennylane-qiskit) (11.0.3)
+Requirement already satisfied: ibm-platform-services>=0.22.6 in c:\users\nosre\venv\test_env\lib\site-packages (from qiskit-ibm-runtime->pennylane-qiskit) (0.38.0)
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd<=1.5->pennylane>=0.30->pennylane-qiskit) (0.18.3)
+Requirement already satisfied: ibm-cloud-sdk-core<4.0.0,>=3.16.7 in c:\users\nosre\venv\test_env\lib\site-packages (from ibm-platform-services>=0.22.6->qiskit-ibm-runtime->pennylane-qiskit) (3.16.7)
+Requirement already satisfied: six>=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from python-dateutil>=2.8.0->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.16.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests->pennylane>=0.30->pennylane-qiskit) (2023.7.22)
+Requirement already satisfied: ntlm-auth>=1.0.2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit) (1.5.0)
+Requirement already satisfied: cryptography>=1.3 in c:\users\nosre\venv\test_env\lib\site-packages (from requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit) (41.0.3)
+Requirement already satisfied: cffi>=1.12 in c:\users\nosre\venv\test_env\lib\site-packages (from cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit) (1.15.1)
+Requirement already satisfied: PyJWT<3.0.0,>=2.4.0 in c:\users\nosre\venv\test_env\lib\site-packages (from ibm-cloud-sdk-core<4.0.0,>=3.16.7->ibm-platform-services>=0.22.6->qiskit-ibm-runtime->pennylane-qiskit) (2.8.0)
+Requirement already satisfied: pbr!=2.1.0,>=2.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from stevedore>=3.0.0->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (5.11.1)
+Requirement already satisfied: mpmath>=0.19 in c:\users\nosre\venv\test_env\lib\site-packages (from sympy>=1.3->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.3.0)
+Requirement already satisfied: pycparser in c:\users\nosre\venv\test_env\lib\site-packages (from cffi>=1.12->cryptography>=1.3->requests-ntlm>=1.1.0->qiskit-ibm-provider->pennylane-qiskit) (2.21)
+Collecting pennylane-cirq
+  Obtaining dependency information for pennylane-cirq from https://files.pythonhosted.org/packages/d8/d6/735206e56c8b60cda7e0145dea3cc490a0ac47a333caf70d19a19332a7ea/PennyLane_Cirq-0.31.0-py3-none-any.whl.metadata
+  Downloading PennyLane_Cirq-0.31.0-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: pennylane>=0.29.0 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane-cirq) (0.31.1)
+Collecting cirq-core>=0.10 (from pennylane-cirq)
+  Obtaining dependency information for cirq-core>=0.10 from https://files.pythonhosted.org/packages/83/75/08070c1ee3c347a618e78317cd7e12df156f567241e6b37ce5b7660ac2ec/cirq_core-1.2.0-py3-none-any.whl.metadata
+  Downloading cirq_core-1.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting cirq-pasqal>=0.10 (from pennylane-cirq)
+  Obtaining dependency information for cirq-pasqal>=0.10 from https://files.pythonhosted.org/packages/f9/39/7e7a2387cdc3d21381c98bb2bb90b5d8890f6ca8d639a85c40458373e7dc/cirq_pasqal-1.2.0-py3-none-any.whl.metadata
+  Downloading cirq_pasqal-1.2.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting duet~=0.2.8 (from cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for duet~=0.2.8 from https://files.pythonhosted.org/packages/be/95/03c8215f675349ff719cb44cd837c2468fdc0c05f55f523f3cad86bbdcc6/duet-0.2.9-py3-none-any.whl.metadata
+  Downloading duet-0.2.9-py3-none-any.whl.metadata (2.3 kB)
+Collecting matplotlib~=3.0 (from cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for matplotlib~=3.0 from https://files.pythonhosted.org/packages/4d/9c/65830d4a56c47f5283eaa244dc1228c5da9c844a9f999ebcc2e69bf6cc65/matplotlib-3.7.2-cp311-cp311-win_amd64.whl.metadata
+  Downloading matplotlib-3.7.2-cp311-cp311-win_amd64.whl.metadata (5.8 kB)
+Requirement already satisfied: networkx>=2.4 in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-core>=0.10->pennylane-cirq) (3.1)
+Requirement already satisfied: numpy~=1.16 in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-core>=0.10->pennylane-cirq) (1.23.5)
+Collecting pandas (from cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for pandas from https://files.pythonhosted.org/packages/9e/71/756a1be6bee0209d8c0d8c5e3b9fc72c00373f384a4017095ec404aec3ad/pandas-2.0.3-cp311-cp311-win_amd64.whl.metadata
+  Downloading pandas-2.0.3-cp311-cp311-win_amd64.whl.metadata (18 kB)
+Collecting sortedcontainers~=2.0 (from cirq-core>=0.10->pennylane-cirq)
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Requirement already satisfied: scipy in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-core>=0.10->pennylane-cirq) (1.11.1)
+Requirement already satisfied: sympy in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-core>=0.10->pennylane-cirq) (1.12)
+Requirement already satisfied: typing-extensions>=4.2 in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-core>=0.10->pennylane-cirq) (4.7.1)
+Collecting tqdm (from cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for tqdm from https://files.pythonhosted.org/packages/00/e5/f12a80907d0884e6dff9c16d0c0114d81b8cd07dc3ae54c5e962cc83037e/tqdm-4.66.1-py3-none-any.whl.metadata
+  Downloading tqdm-4.66.1-py3-none-any.whl.metadata (57 kB)
+     ---------------------------------------- 57.6/57.6 kB 3.0 MB/s eta 0:00:00
+Requirement already satisfied: requests~=2.18 in c:\users\nosre\venv\test_env\lib\site-packages (from cirq-pasqal>=0.10->pennylane-cirq) (2.31.0)
+Requirement already satisfied: rustworkx in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (0.13.1)
+Requirement already satisfied: autograd<=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (1.5)
+Requirement already satisfied: toml in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (0.10.2)
+Requirement already satisfied: appdirs in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (1.4.4)
+Requirement already satisfied: semantic-version>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (2.10.0)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (0.6.3)
+Requirement already satisfied: cachetools in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (5.3.1)
+Requirement already satisfied: pennylane-lightning>=0.31 in c:\users\nosre\venv\test_env\lib\site-packages (from pennylane>=0.29.0->pennylane-cirq) (0.31.0)
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd<=1.5->pennylane>=0.29.0->pennylane-cirq) (0.18.3)
+Collecting contourpy>=1.0.1 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for contourpy>=1.0.1 from https://files.pythonhosted.org/packages/16/09/989b982322439faa4bafffcd669e6f942b38fee897c2664c987bcd091dec/contourpy-1.1.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading contourpy-1.1.0-cp311-cp311-win_amd64.whl.metadata (5.7 kB)
+Collecting cycler>=0.10 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for fonttools>=4.22.0 from https://files.pythonhosted.org/packages/52/65/aaa3d2b7a292d93cc2cf1c534d03ba3f744e480f15b3b2ab6ad68189f7ee/fonttools-4.42.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading fonttools-4.42.0-cp311-cp311-win_amd64.whl.metadata (153 kB)
+     -------------------------------------- 153.7/153.7 kB 9.0 MB/s eta 0:00:00
+Collecting kiwisolver>=1.0.1 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Downloading kiwisolver-1.4.4-cp311-cp311-win_amd64.whl (55 kB)
+     ---------------------------------------- 55.4/55.4 kB ? eta 0:00:00
+Requirement already satisfied: packaging>=20.0 in c:\users\nosre\venv\test_env\lib\site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (23.1)
+Collecting pillow>=6.2.0 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Obtaining dependency information for pillow>=6.2.0 from https://files.pythonhosted.org/packages/66/d4/054e491f0880bf0119ee79cdc03264e01d5732e06c454da8c69b83a7c8f2/Pillow-10.0.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading Pillow-10.0.0-cp311-cp311-win_amd64.whl.metadata (9.6 kB)
+Collecting pyparsing<3.1,>=2.3.1 (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq)
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+     ---------------------------------------- 98.3/98.3 kB ? eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\nosre\venv\test_env\lib\site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (2.8.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\nosre\venv\test_env\lib\site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (1.26.16)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (2023.7.22)
+Collecting pytz>=2020.1 (from pandas->cirq-core>=0.10->pennylane-cirq)
+  Downloading pytz-2023.3-py2.py3-none-any.whl (502 kB)
+     ------------------------------------- 502.3/502.3 kB 30.8 MB/s eta 0:00:00
+Collecting tzdata>=2022.1 (from pandas->cirq-core>=0.10->pennylane-cirq)
+  Downloading tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+     ---------------------------------------- 341.8/341.8 kB ? eta 0:00:00
+Requirement already satisfied: mpmath>=0.19 in c:\users\nosre\venv\test_env\lib\site-packages (from sympy->cirq-core>=0.10->pennylane-cirq) (1.3.0)
+Requirement already satisfied: colorama in c:\users\nosre\venv\test_env\lib\site-packages (from tqdm->cirq-core>=0.10->pennylane-cirq) (0.4.6)
+Requirement already satisfied: six>=1.5 in c:\users\nosre\venv\test_env\lib\site-packages (from python-dateutil>=2.7->matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (1.16.0)
+Downloading PennyLane_Cirq-0.31.0-py3-none-any.whl (21 kB)
+Downloading cirq_core-1.2.0-py3-none-any.whl (1.8 MB)
+   ---------------------------------------- 1.8/1.8 MB 38.5 MB/s eta 0:00:00
+Downloading cirq_pasqal-1.2.0-py3-none-any.whl (31 kB)
+Downloading duet-0.2.9-py3-none-any.whl (29 kB)
+Downloading matplotlib-3.7.2-cp311-cp311-win_amd64.whl (7.5 MB)
+   ---------------------------------------- 7.5/7.5 MB 34.2 MB/s eta 0:00:00
+Downloading pandas-2.0.3-cp311-cp311-win_amd64.whl (10.6 MB)
+   ---------------------------------------- 10.6/10.6 MB 36.4 MB/s eta 0:00:00
+Downloading tqdm-4.66.1-py3-none-any.whl (78 kB)
+   ---------------------------------------- 78.3/78.3 kB 4.5 MB/s eta 0:00:00
+Downloading contourpy-1.1.0-cp311-cp311-win_amd64.whl (470 kB)
+   --------------------------------------- 470.9/470.9 kB 30.7 MB/s eta 0:00:00
+Downloading fonttools-4.42.0-cp311-cp311-win_amd64.whl (2.1 MB)
+   ---------------------------------------- 2.1/2.1 MB 34.0 MB/s eta 0:00:00
+Downloading Pillow-10.0.0-cp311-cp311-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 2.5/2.5 MB 31.7 MB/s eta 0:00:00
+Installing collected packages: sortedcontainers, pytz, tzdata, tqdm, pyparsing, pillow, kiwisolver, fonttools, duet, cycler, contourpy, pandas, matplotlib, cirq-core, cirq-pasqal, pennylane-cirq
+Successfully installed cirq-core-1.2.0 cirq-pasqal-1.2.0 contourpy-1.1.0 cycler-0.11.0 duet-0.2.9 fonttools-4.42.0 kiwisolver-1.4.4 matplotlib-3.7.2 pandas-2.0.3 pennylane-cirq-0.31.0 pillow-10.0.0 pyparsing-3.0.9 pytz-2023.3 sortedcontainers-2.4.0 tqdm-4.66.1 tzdata-2023.3
+Requirement already satisfied: autograd in c:\users\nosre\venv\test_env\lib\site-packages (1.5)
+Requirement already satisfied: numpy>=1.12 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd) (1.23.5)
+Requirement already satisfied: future>=0.15.2 in c:\users\nosre\venv\test_env\lib\site-packages (from autograd) (0.18.3)
+Collecting tensorflow
+  Obtaining dependency information for tensorflow from https://files.pythonhosted.org/packages/9e/b8/ed5f794359d05cd0bffb894c6418da87b93016ee17b669d55c45d1bd5d5b/tensorflow-2.13.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading tensorflow-2.13.0-cp311-cp311-win_amd64.whl.metadata (2.6 kB)
+Collecting tensorflow-intel==2.13.0 (from tensorflow)
+  Obtaining dependency information for tensorflow-intel==2.13.0 from https://files.pythonhosted.org/packages/2f/2f/3c84f675931ce3bcbc7e23acbba1e5d7f05ce769adab48322de57a9f5928/tensorflow_intel-2.13.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading tensorflow_intel-2.13.0-cp311-cp311-win_amd64.whl.metadata (4.1 kB)
+Collecting absl-py>=1.0.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+     -------------------------------------- 126.5/126.5 kB 7.8 MB/s eta 0:00:00
+Collecting astunparse>=1.6.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting flatbuffers>=23.1.21 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for flatbuffers>=23.1.21 from https://files.pythonhosted.org/packages/6f/12/d5c79ee252793ffe845d58a913197bfa02ae9a0b5c9bc3dc4b58d477b9e7/flatbuffers-23.5.26-py2.py3-none-any.whl.metadata
+  Downloading flatbuffers-23.5.26-py2.py3-none-any.whl.metadata (850 bytes)
+Collecting gast<=0.4.0,>=0.2.1 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading gast-0.4.0-py3-none-any.whl (9.8 kB)
+Collecting google-pasta>=0.1.1 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+     ---------------------------------------- 57.5/57.5 kB 3.0 MB/s eta 0:00:00
+Collecting h5py>=2.9.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for h5py>=2.9.0 from https://files.pythonhosted.org/packages/d1/93/0f4cf5058095d749d464e4f770d2bf339930e5f3374331f0d2fa6ddfbf28/h5py-3.9.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading h5py-3.9.0-cp311-cp311-win_amd64.whl.metadata (2.5 kB)
+Collecting libclang>=13.0.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for libclang>=13.0.0 from https://files.pythonhosted.org/packages/02/8c/dc970bc00867fe290e8c8a7befa1635af716a9ebdfe3fb9dce0ca4b522ce/libclang-16.0.6-py2.py3-none-win_amd64.whl.metadata
+  Downloading libclang-16.0.6-py2.py3-none-win_amd64.whl.metadata (5.3 kB)
+Requirement already satisfied: numpy<=1.24.3,>=1.22 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.23.5)
+Collecting opt-einsum>=2.3.2 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+     ---------------------------------------- 65.5/65.5 kB 3.7 MB/s eta 0:00:00
+Requirement already satisfied: packaging in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (23.1)
+Collecting protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 from https://files.pythonhosted.org/packages/1c/1f/e64ec8bc540266178d4d0e0255e0c1427ba284ba951e193d193a238b09bb/protobuf-4.24.0-cp310-abi3-win_amd64.whl.metadata
+  Downloading protobuf-4.24.0-cp310-abi3-win_amd64.whl.metadata (540 bytes)
+Requirement already satisfied: setuptools in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (65.5.0)
+Requirement already satisfied: six>=1.12.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.16.0)
+Requirement already satisfied: termcolor>=1.1.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (2.3.0)
+Collecting typing-extensions<4.6.0,>=3.6.6 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting wrapt>=1.11.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading wrapt-1.15.0-cp311-cp311-win_amd64.whl (36 kB)
+Collecting grpcio<2.0,>=1.24.3 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for grpcio<2.0,>=1.24.3 from https://files.pythonhosted.org/packages/8d/58/ede228c07bdf3780c5332660c89f3c7a37fe8bfb9bd73a97ad2614420bd4/grpcio-1.57.0-cp311-cp311-win_amd64.whl.metadata
+  Downloading grpcio-1.57.0-cp311-cp311-win_amd64.whl.metadata (4.1 kB)
+Collecting tensorboard<2.14,>=2.13 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading tensorboard-2.13.0-py3-none-any.whl (5.6 MB)
+     ---------------------------------------- 5.6/5.6 MB 18.7 MB/s eta 0:00:00
+Collecting tensorflow-estimator<2.14,>=2.13.0 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for tensorflow-estimator<2.14,>=2.13.0 from https://files.pythonhosted.org/packages/72/5c/c318268d96791c6222ad7df1651bbd1b2409139afeb6f468c0f327177016/tensorflow_estimator-2.13.0-py2.py3-none-any.whl.metadata
+  Downloading tensorflow_estimator-2.13.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting keras<2.14,>=2.13.1 (from tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for keras<2.14,>=2.13.1 from https://files.pythonhosted.org/packages/2e/f3/19da7511b45e80216cbbd9467137b2d28919c58ba1ccb971435cb631e470/keras-2.13.1-py3-none-any.whl.metadata
+  Downloading keras-2.13.1-py3-none-any.whl.metadata (2.4 kB)
+Collecting tensorflow-io-gcs-filesystem>=0.23.1 (from tensorflow-intel==2.13.0->tensorflow)
+  Downloading tensorflow_io_gcs_filesystem-0.31.0-cp311-cp311-win_amd64.whl (1.5 MB)
+     ---------------------------------------- 1.5/1.5 MB 31.4 MB/s eta 0:00:00
+Collecting wheel<1.0,>=0.23.0 (from astunparse>=1.6.0->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for wheel<1.0,>=0.23.0 from https://files.pythonhosted.org/packages/28/f5/6955d7b3a5d71ce6bac104f9cf98c1b0513ad656cdaca8ea7d579196f771/wheel-0.41.1-py3-none-any.whl.metadata
+  Downloading wheel-0.41.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting google-auth<3,>=1.6.3 (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for google-auth<3,>=1.6.3 from https://files.pythonhosted.org/packages/9c/8d/bff87fc722553a5691d8514da5523c23547f3894189ba03b57592e37bdc2/google_auth-2.22.0-py2.py3-none-any.whl.metadata
+  Downloading google_auth-2.22.0-py2.py3-none-any.whl.metadata (4.2 kB)
+Collecting google-auth-oauthlib<1.1,>=0.5 (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting markdown>=2.6.8 (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for markdown>=2.6.8 from https://files.pythonhosted.org/packages/1a/b5/228c1cdcfe138f1a8e01ab1b54284c8b83735476cb22b6ba251656ed13ad/Markdown-3.4.4-py3-none-any.whl.metadata
+  Downloading Markdown-3.4.4-py3-none-any.whl.metadata (6.9 kB)
+Requirement already satisfied: requests<3,>=2.21.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2.31.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for tensorboard-data-server<0.8.0,>=0.7.0 from https://files.pythonhosted.org/packages/da/61/6e9ff8258422d287eec718872fb71e05324356722ab658c8afda25f51539/tensorboard_data_server-0.7.1-py3-none-any.whl.metadata
+  Downloading tensorboard_data_server-0.7.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting werkzeug>=1.0.1 (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for werkzeug>=1.0.1 from https://files.pythonhosted.org/packages/9b/59/a7c32e3d8d0e546a206e0552a2c04444544f15c1da4a01df8938d20c6ffc/werkzeug-2.3.7-py3-none-any.whl.metadata
+  Downloading werkzeug-2.3.7-py3-none-any.whl.metadata (4.1 kB)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (5.3.1)
+Collecting pyasn1-modules>=0.2.1 (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+     ------------------------------------- 181.3/181.3 kB 10.7 MB/s eta 0:00:00
+Collecting rsa<5,>=3.1.4 (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Requirement already satisfied: urllib3<2.0 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (1.26.16)
+Collecting requests-oauthlib>=0.7.0 (from google-auth-oauthlib<1.1,>=0.5->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2023.7.22)
+Collecting MarkupSafe>=2.1.1 (from werkzeug>=1.0.1->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Obtaining dependency information for MarkupSafe>=2.1.1 from https://files.pythonhosted.org/packages/be/bb/08b85bc194034efbf572e70c3951549c8eca0ada25363afc154386b5390a/MarkupSafe-2.1.3-cp311-cp311-win_amd64.whl.metadata
+  Downloading MarkupSafe-2.1.3-cp311-cp311-win_amd64.whl.metadata (3.1 kB)
+Collecting pyasn1<0.6.0,>=0.4.6 (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+     ---------------------------------------- 83.9/83.9 kB 4.6 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow)
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+     ---------------------------------------- 151.7/151.7 kB ? eta 0:00:00
+Downloading tensorflow-2.13.0-cp311-cp311-win_amd64.whl (1.9 kB)
+Downloading tensorflow_intel-2.13.0-cp311-cp311-win_amd64.whl (276.6 MB)
+   ---------------------------------------- 276.6/276.6 MB 1.7 MB/s eta 0:00:00
+Downloading flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+Downloading grpcio-1.57.0-cp311-cp311-win_amd64.whl (4.3 MB)
+   ---------------------------------------- 4.3/4.3 MB 13.0 MB/s eta 0:00:00
+Downloading h5py-3.9.0-cp311-cp311-win_amd64.whl (2.7 MB)
+   ---------------------------------------- 2.7/2.7 MB 12.1 MB/s eta 0:00:00
+Downloading keras-2.13.1-py3-none-any.whl (1.7 MB)
+   ---------------------------------------- 1.7/1.7 MB 10.8 MB/s eta 0:00:00
+Downloading libclang-16.0.6-py2.py3-none-win_amd64.whl (24.4 MB)
+   ---------------------------------------- 24.4/24.4 MB 9.8 MB/s eta 0:00:00
+Downloading protobuf-4.24.0-cp310-abi3-win_amd64.whl (430 kB)
+   ---------------------------------------- 430.5/430.5 kB 8.9 MB/s eta 0:00:00
+Downloading tensorflow_estimator-2.13.0-py2.py3-none-any.whl (440 kB)
+   ---------------------------------------- 440.8/440.8 kB 9.2 MB/s eta 0:00:00
+Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
+   --------------------------------------- 181.8/181.8 kB 10.7 MB/s eta 0:00:00
+Downloading Markdown-3.4.4-py3-none-any.whl (94 kB)
+   ---------------------------------------- 94.2/94.2 kB 2.7 MB/s eta 0:00:00
+Downloading tensorboard_data_server-0.7.1-py3-none-any.whl (2.4 kB)
+Downloading werkzeug-2.3.7-py3-none-any.whl (242 kB)
+   --------------------------------------- 242.2/242.2 kB 14.5 MB/s eta 0:00:00
+Using cached wheel-0.41.1-py3-none-any.whl (64 kB)
+Downloading MarkupSafe-2.1.3-cp311-cp311-win_amd64.whl (17 kB)
+Installing collected packages: libclang, flatbuffers, wrapt, wheel, typing-extensions, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard-data-server, pyasn1, protobuf, opt-einsum, oauthlib, MarkupSafe, markdown, keras, h5py, grpcio, google-pasta, gast, absl-py, werkzeug, rsa, requests-oauthlib, pyasn1-modules, astunparse, google-auth, google-auth-oauthlib, tensorboard, tensorflow-intel, tensorflow
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.7.1
+    Uninstalling typing_extensions-4.7.1:
+      Successfully uninstalled typing_extensions-4.7.1
+Successfully installed MarkupSafe-2.1.3 absl-py-1.4.0 astunparse-1.6.3 flatbuffers-23.5.26 gast-0.4.0 google-auth-2.22.0 google-auth-oauthlib-1.0.0 google-pasta-0.2.0 grpcio-1.57.0 h5py-3.9.0 keras-2.13.1 libclang-16.0.6 markdown-3.4.4 oauthlib-3.2.2 opt-einsum-3.3.0 protobuf-4.24.0 pyasn1-0.5.0 pyasn1-modules-0.3.0 requests-oauthlib-1.3.1 rsa-4.9 tensorboard-2.13.0 tensorboard-data-server-0.7.1 tensorflow-2.13.0 tensorflow-estimator-2.13.0 tensorflow-intel-2.13.0 tensorflow-io-gcs-filesystem-0.31.0 typing-extensions-4.5.0 werkzeug-2.3.7 wheel-0.41.1 wrapt-1.15.0
+Requirement already satisfied: tensorflow in c:\users\nosre\venv\test_env\lib\site-packages (2.13.0)
+Requirement already satisfied: tensorflow-intel==2.13.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow) (2.13.0)
+Requirement already satisfied: absl-py>=1.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.4.0)
+Requirement already satisfied: astunparse>=1.6.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.6.3)
+Requirement already satisfied: flatbuffers>=23.1.21 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (23.5.26)
+Requirement already satisfied: gast<=0.4.0,>=0.2.1 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (0.4.0)
+Requirement already satisfied: google-pasta>=0.1.1 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (0.2.0)
+Requirement already satisfied: h5py>=2.9.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (3.9.0)
+Requirement already satisfied: libclang>=13.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (16.0.6)
+Requirement already satisfied: numpy<=1.24.3,>=1.22 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.23.5)
+Requirement already satisfied: opt-einsum>=2.3.2 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (3.3.0)
+Requirement already satisfied: packaging in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (23.1)
+Requirement already satisfied: protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (4.24.0)
+Requirement already satisfied: setuptools in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (65.5.0)
+Requirement already satisfied: six>=1.12.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.16.0)
+Requirement already satisfied: termcolor>=1.1.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (2.3.0)
+Requirement already satisfied: typing-extensions<4.6.0,>=3.6.6 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (4.5.0)
+Requirement already satisfied: wrapt>=1.11.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.15.0)
+Requirement already satisfied: grpcio<2.0,>=1.24.3 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (1.57.0)
+Requirement already satisfied: tensorboard<2.14,>=2.13 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (2.13.0)
+Requirement already satisfied: tensorflow-estimator<2.14,>=2.13.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (2.13.0)
+Requirement already satisfied: keras<2.14,>=2.13.1 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (2.13.1)
+Requirement already satisfied: tensorflow-io-gcs-filesystem>=0.23.1 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorflow-intel==2.13.0->tensorflow) (0.31.0)
+Requirement already satisfied: wheel<1.0,>=0.23.0 in c:\users\nosre\venv\test_env\lib\site-packages (from astunparse>=1.6.0->tensorflow-intel==2.13.0->tensorflow) (0.41.1)
+Requirement already satisfied: google-auth<3,>=1.6.3 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2.22.0)
+Requirement already satisfied: google-auth-oauthlib<1.1,>=0.5 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (1.0.0)
+Requirement already satisfied: markdown>=2.6.8 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.4.4)
+Requirement already satisfied: requests<3,>=2.21.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2.31.0)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (0.7.1)
+Requirement already satisfied: werkzeug>=1.0.1 in c:\users\nosre\venv\test_env\lib\site-packages (from tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2.3.7)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (5.3.1)
+Requirement already satisfied: pyasn1-modules>=0.2.1 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (0.3.0)
+Requirement already satisfied: rsa<5,>=3.1.4 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (4.9)
+Requirement already satisfied: urllib3<2.0 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (1.26.16)
+Requirement already satisfied: requests-oauthlib>=0.7.0 in c:\users\nosre\venv\test_env\lib\site-packages (from google-auth-oauthlib<1.1,>=0.5->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (1.3.1)
+Requirement already satisfied: charset-normalizer<4,>=2 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.2.0)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\nosre\venv\test_env\lib\site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2023.7.22)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\users\nosre\venv\test_env\lib\site-packages (from werkzeug>=1.0.1->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (2.1.3)
+Requirement already satisfied: pyasn1<0.6.0,>=0.4.6 in c:\users\nosre\venv\test_env\lib\site-packages (from pyasn1-modules>=0.2.1->google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (0.5.0)
+Requirement already satisfied: oauthlib>=3.0.0 in c:\users\nosre\venv\test_env\lib\site-packages (from requests-oauthlib>=0.7.0->google-auth-oauthlib<1.1,>=0.5->tensorboard<2.14,>=2.13->tensorflow-intel==2.13.0->tensorflow) (3.2.2)
