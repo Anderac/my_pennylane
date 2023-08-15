@@ -1,0 +1,69 @@
+  error: subprocess-exited-with-error
+
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [59 lines of output]
+      running bdist_wheel
+      running build
+      running build_py
+      creating build
+      creating build\lib.win-amd64-cpython-311
+      creating build\lib.win-amd64-cpython-311\pennylane_lightning_gpu
+      copying pennylane_lightning_gpu\lightning_gpu.py -> build\lib.win-amd64-cpython-311\pennylane_lightning_gpu
+      copying pennylane_lightning_gpu\_serialize.py -> build\lib.win-amd64-cpython-311\pennylane_lightning_gpu
+      copying pennylane_lightning_gpu\_version.py -> build\lib.win-amd64-cpython-311\pennylane_lightning_gpu
+      copying pennylane_lightning_gpu\__init__.py -> build\lib.win-amd64-cpython-311\pennylane_lightning_gpu
+      creating build\lib.win-amd64-cpython-311\pennylane_lightning_gpu\src
+      copying pennylane_lightning_gpu\src\CMakeLists.txt -> build\lib.win-amd64-cpython-311\pennylane_lightning_gpu\src
+      running build_ext
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "C:\Users\nosre\AppData\Local\Temp\pip-install-31taf6wp\pennylane-lightning-gpu_3b0c030247d34a58905efc3212040b26\setup.py", line 143, in <module>
+          setup(classifiers=classifiers, **(info))
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\__init__.py", line 87, in setup
+          return distutils.core.setup(**attrs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\core.py", line 185, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\core.py", line 201, in run_commands
+          dist.run_commands()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\dist.py", line 968, in run_commands
+          self.run_command(cmd)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\wheel\bdist_wheel.py", line 349, in run
+          self.run_command("build")
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\command\build.py", line 132, in run
+          self.run_command(cmd_name)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+          self.distribution.run_command(command)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\dist.py", line 1217, in run_command
+          super().run_command(command)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\dist.py", line 987, in run_command
+          cmd_obj.run()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\command\build_ext.py", line 84, in run
+          _build_ext.run(self)
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 346, in run
+          self.build_extensions()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 466, in build_extensions
+          self._build_extensions_serial()
+        File "C:\Users\nosre\VEnv\test_env\Lib\site-packages\setuptools\_distutils\command\build_ext.py", line 492, in _build_extensions_serial
+          self.build_extension(ext)
+        File "C:\Users\nosre\AppData\Local\Temp\pip-install-31taf6wp\pennylane-lightning-gpu_3b0c030247d34a58905efc3212040b26\setup.py", line 80, in build_extension
+          raise RuntimeError(f"Unsupported '{platform.system()}' platform")
+      RuntimeError: Unsupported 'Windows' platform
+      [end of output]
+
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pennylane-lightning-gpu
+ERROR: Could not build wheels for pennylane-lightning-gpu, which is required to install pyproject.toml-based projects
