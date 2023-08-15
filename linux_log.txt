@@ -1,0 +1,472 @@
+Collecting pennylane
+  Downloading PennyLane-0.31.1-py3-none-any.whl (1.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.5/1.5 MB 14.8 MB/s eta 0:00:00
+Collecting rustworkx
+  Downloading rustworkx-0.13.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (2.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 37.7 MB/s eta 0:00:00
+Collecting numpy<1.24
+  Downloading numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 17.1/17.1 MB 31.2 MB/s eta 0:00:00
+Collecting networkx
+  Downloading networkx-3.1-py3-none-any.whl (2.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 36.3 MB/s eta 0:00:00
+Collecting scipy
+  Using cached scipy-1.11.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (36.3 MB)
+Collecting appdirs
+  Downloading appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting cachetools
+  Downloading cachetools-5.3.1-py3-none-any.whl (9.3 kB)
+Collecting typing-extensions
+  Downloading typing_extensions-4.7.1-py3-none-any.whl (33 kB)
+Collecting requests
+  Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Collecting pennylane-lightning>=0.31
+  Downloading PennyLane_Lightning-0.31.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 25.6 MB/s eta 0:00:00
+Collecting autograd<=1.5
+  Downloading autograd-1.5-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.9/48.9 KB 1.7 MB/s eta 0:00:00
+Collecting semantic-version>=2.7
+  Downloading semantic_version-2.10.0-py2.py3-none-any.whl (15 kB)
+Collecting autoray<=0.6.3,>=0.3.1
+  Downloading autoray-0.6.3-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.3/48.3 KB 2.7 MB/s eta 0:00:00
+Collecting toml
+  Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting future>=0.15.2
+  Downloading future-0.18.3.tar.gz (840 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 840.9/840.9 KB 26.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting idna<4,>=2.5
+  Using cached idna-3.4-py3-none-any.whl (61 kB)
+Collecting charset-normalizer<4,>=2
+  Using cached charset_normalizer-3.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (201 kB)
+Collecting certifi>=2017.4.17
+  Using cached certifi-2023.7.22-py3-none-any.whl (158 kB)
+Collecting urllib3<3,>=1.21.1
+  Using cached urllib3-2.0.4-py3-none-any.whl (123 kB)
+Using legacy 'setup.py install' for future, since package 'wheel' is not installed.
+Installing collected packages: appdirs, urllib3, typing-extensions, toml, semantic-version, numpy, networkx, idna, future, charset-normalizer, certifi, cachetools, autoray, scipy, rustworkx, requests, autograd, pennylane-lightning, pennylane
+  Running setup.py install for future ... done
+Successfully installed appdirs-1.4.4 autograd-1.5 autoray-0.6.3 cachetools-5.3.1 certifi-2023.7.22 charset-normalizer-3.2.0 future-0.18.3 idna-3.4 networkx-3.1 numpy-1.23.5 pennylane-0.31.1 pennylane-lightning-0.31.0 requests-2.31.0 rustworkx-0.13.1 scipy-1.11.1 semantic-version-2.10.0 toml-0.10.2 typing-extensions-4.7.1 urllib3-2.0.4
+
+Collecting matplotlib
+  Using cached matplotlib-3.7.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (11.6 MB)
+Collecting pillow>=6.2.0
+  Using cached Pillow-10.0.0-cp310-cp310-manylinux_2_28_x86_64.whl (3.4 MB)
+Collecting cycler>=0.10
+  Using cached cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting python-dateutil>=2.7
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting contourpy>=1.0.1
+  Using cached contourpy-1.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (300 kB)
+Collecting fonttools>=4.22.0
+  Using cached fonttools-4.42.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.5 MB)
+Collecting pyparsing<3.1,>=2.3.1
+  Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Requirement already satisfied: numpy>=1.20 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib) (1.23.5)
+Collecting kiwisolver>=1.0.1
+  Using cached kiwisolver-1.4.4-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (1.6 MB)
+Requirement already satisfied: packaging>=20.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib) (23.1)
+Collecting six>=1.5
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: six, pyparsing, pillow, kiwisolver, fonttools, cycler, contourpy, python-dateutil, matplotlib
+Successfully installed contourpy-1.1.0 cycler-0.11.0 fonttools-4.42.0 kiwisolver-1.4.4 matplotlib-3.7.2 pillow-10.0.0 pyparsing-3.0.9 python-dateutil-2.8.2 six-1.16.0
+
+Collecting pytest
+  Downloading pytest-7.4.0-py3-none-any.whl (323 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 323.6/323.6 KB 4.5 MB/s eta 0:00:00
+Collecting pytest-cov
+  Downloading pytest_cov-4.1.0-py3-none-any.whl (21 kB)
+Collecting pytest-mock
+  Downloading pytest_mock-3.11.1-py3-none-any.whl (9.6 kB)
+Collecting flaky
+  Downloading flaky-3.7.0-py2.py3-none-any.whl (22 kB)
+Collecting pluggy<2.0,>=0.12
+  Downloading pluggy-1.2.0-py3-none-any.whl (17 kB)
+Collecting exceptiongroup>=1.0.0rc8
+  Downloading exceptiongroup-1.1.2-py3-none-any.whl (14 kB)
+Collecting iniconfig
+  Downloading iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting tomli>=1.0.0
+  Downloading tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting packaging
+  Using cached packaging-23.1-py3-none-any.whl (48 kB)
+Collecting coverage[toml]>=5.2.1
+  Downloading coverage-7.2.7-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (228 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 228.7/228.7 KB 31.9 MB/s eta 0:00:00
+Installing collected packages: tomli, pluggy, packaging, iniconfig, flaky, exceptiongroup, coverage, pytest, pytest-mock, pytest-cov
+Successfully installed coverage-7.2.7 exceptiongroup-1.1.2 flaky-3.7.0 iniconfig-2.0.0 packaging-23.1 pluggy-1.2.0 pytest-7.4.0 pytest-cov-4.1.0 pytest-mock-3.11.1 tomli-2.0.1
+ 
+Requirement already satisfied: pennylane-lightning in ./VEnv/PennyLane_test/lib/python3.10/site-packages (0.31.0)
+Collecting pennylane-sf
+  Downloading PennyLane_SF-0.29.1-py3-none-any.whl (29 kB)
+Collecting pennylane-qiskit
+  Downloading PennyLane_qiskit-0.31.0-py3-none-any.whl (28 kB)
+Collecting pennylane-cirq
+  Downloading PennyLane_Cirq-0.31.0-py3-none-any.whl (21 kB)
+Requirement already satisfied: pennylane>=0.30 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane-lightning) (0.31.1)
+Collecting pennylane-lightning-gpu
+  Downloading PennyLane_Lightning_GPU-0.31.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (27.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 27.9/27.9 MB 25.8 MB/s eta 0:00:00
+Collecting strawberryfields>=0.22
+  Downloading StrawberryFields-0.23.0-py3-none-any.whl (4.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 31.8 MB/s eta 0:00:00
+Collecting pennylane-sf
+  Downloading PennyLane_SF-0.29.0-py3-none-any.whl (29 kB)
+Requirement already satisfied: numpy in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane-qiskit) (1.23.5)
+Requirement already satisfied: networkx>=2.2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane-qiskit) (3.1)
+Collecting qiskit-ibm-runtime
+  Downloading qiskit_ibm_runtime-0.11.3-py3-none-any.whl (128 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 128.3/128.3 KB 21.1 MB/s eta 0:00:00
+Collecting mthree>=0.17
+  Downloading mthree-2.5.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.4/3.4 MB 31.4 MB/s eta 0:00:00
+Collecting qiskit-ibm-provider
+  Downloading qiskit_ibm_provider-0.6.3-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.2/239.2 KB 27.1 MB/s eta 0:00:00
+Collecting qiskit>=0.32
+  Downloading qiskit-0.44.0.tar.gz (8.9 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting cirq-core>=0.10
+  Downloading cirq_core-1.2.0-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 31.2 MB/s eta 0:00:00
+Collecting cirq-pasqal>=0.10
+  Downloading cirq_pasqal-1.2.0-py3-none-any.whl (31 kB)
+Collecting sympy
+  Downloading sympy-1.12-py3-none-any.whl (5.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.7/5.7 MB 31.6 MB/s eta 0:00:00
+Collecting duet~=0.2.8
+  Downloading duet-0.2.9-py3-none-any.whl (29 kB)
+Requirement already satisfied: matplotlib~=3.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from cirq-core>=0.10->pennylane-cirq) (3.7.2)
+Collecting sortedcontainers~=2.0
+  Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+Collecting tqdm
+  Downloading tqdm-4.66.1-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 KB 12.6 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=4.2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from cirq-core>=0.10->pennylane-cirq) (4.7.1)
+Requirement already satisfied: scipy in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from cirq-core>=0.10->pennylane-cirq) (1.11.1)
+Collecting pandas
+  Using cached pandas-2.0.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.3 MB)
+Requirement already satisfied: requests~=2.18 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from cirq-pasqal>=0.10->pennylane-cirq) (2.31.0)
+Collecting cython>=0.29
+  Downloading Cython-3.0.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 31.9 MB/s eta 0:00:00
+Collecting psutil
+  Downloading psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (282 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 282.1/282.1 KB 31.8 MB/s eta 0:00:00
+Collecting qiskit-ibmq-provider>=0.19.2
+  Downloading qiskit_ibmq_provider-0.20.2-py3-none-any.whl (241 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 241.5/241.5 KB 21.3 MB/s eta 0:00:00
+Collecting qiskit-terra>=0.21
+  Downloading qiskit_terra-0.25.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (6.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.1/6.1 MB 11.8 MB/s eta 0:00:00
+Collecting orjson>=3.0.0
+  Downloading orjson-3.9.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (140 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 140.3/140.3 KB 6.5 MB/s eta 0:00:00
+Requirement already satisfied: appdirs in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (1.4.4)
+Requirement already satisfied: cachetools in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (5.3.1)
+Requirement already satisfied: rustworkx in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (0.13.1)
+Requirement already satisfied: toml in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (0.10.2)
+Requirement already satisfied: semantic-version>=2.7 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (2.10.0)
+Requirement already satisfied: autograd<=1.5 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (1.5)
+Requirement already satisfied: autoray<=0.6.3,>=0.3.1 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from pennylane>=0.30->pennylane-lightning) (0.6.3)
+Collecting stevedore>=3.0.0
+  Downloading stevedore-5.1.0-py3-none-any.whl (49 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.6/49.6 KB 7.7 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil>=2.8.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (2.8.2)
+Collecting ply>=3.10
+  Downloading ply-3.11-py2.py3-none-any.whl (49 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.6/49.6 KB 13.4 MB/s eta 0:00:00
+Collecting dill>=0.3
+  Downloading dill-0.3.7-py3-none-any.whl (115 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 115.3/115.3 KB 13.3 MB/s eta 0:00:00
+Collecting symengine<0.10,>=0.9
+  Downloading symengine-0.9.2-cp310-cp310-manylinux2010_x86_64.whl (37.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.5/37.5 MB 22.7 MB/s eta 0:00:00
+Requirement already satisfied: urllib3>=1.25.3 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from strawberryfields>=0.22->pennylane-sf) (2.0.4)
+Collecting thewalrus>=0.18.0
+  Downloading thewalrus-0.20.0.tar.gz (108 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 108.6/108.6 KB 19.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting numba
+  Downloading numba-0.57.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.6/3.6 MB 36.5 MB/s eta 0:00:00
+Collecting quantum-blackbird>=0.3.0
+  Downloading quantum_blackbird-0.5.0-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.0/48.0 KB 11.6 MB/s eta 0:00:00
+Collecting quantum-xir>=0.1.1
+  Downloading quantum_xir-0.2.2-py3-none-any.whl (27 kB)
+Collecting xanadu-cloud-client>=0.2.1
+  Downloading xanadu_cloud_client-0.3.1-py3-none-any.whl (25 kB)
+Collecting websockets>=10.0
+  Downloading websockets-11.0.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.9/129.9 KB 18.3 MB/s eta 0:00:00
+Collecting requests-ntlm>=1.1.0
+  Downloading requests_ntlm-1.2.0-py3-none-any.whl (6.0 kB)
+Collecting websocket-client>=1.5.1
+  Downloading websocket_client-1.6.1-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.9/56.9 KB 15.1 MB/s eta 0:00:00
+Collecting ibm-platform-services>=0.22.6
+  Downloading ibm-platform-services-0.38.0.tar.gz (254 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 254.2/254.2 KB 28.4 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: future>=0.15.2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from autograd<=1.5->pennylane>=0.30->pennylane-lightning) (0.18.3)
+Collecting urllib3>=1.25.3
+  Downloading urllib3-1.26.16-py2.py3-none-any.whl (143 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.1/143.1 KB 18.9 MB/s eta 0:00:00
+Collecting ibm-cloud-sdk-core<4.0.0,>=3.16.7
+  Downloading ibm-cloud-sdk-core-3.16.7.tar.gz (52 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 52.3/52.3 KB 12.2 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: kiwisolver>=1.0.1 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (1.4.4)
+Requirement already satisfied: pillow>=6.2.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (10.0.0)
+Requirement already satisfied: fonttools>=4.22.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (4.42.0)
+Requirement already satisfied: contourpy>=1.0.1 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (1.1.0)
+Requirement already satisfied: packaging>=20.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (23.1)
+Requirement already satisfied: cycler>=0.10 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (0.11.0)
+Requirement already satisfied: pyparsing<3.1,>=2.3.1 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from matplotlib~=3.0->cirq-core>=0.10->pennylane-cirq) (3.0.9)
+Requirement already satisfied: six>=1.5 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from python-dateutil>=2.8.0->qiskit-terra>=0.21->mthree>=0.17->pennylane-qiskit) (1.16.0)
+Collecting requests-ntlm>=1.1.0
+  Downloading requests_ntlm-1.1.0-py2.py3-none-any.whl (5.7 kB)
+Collecting antlr4-python3-runtime==4.9.2
+  Downloading antlr4-python3-runtime-4.9.2.tar.gz (117 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 117.2/117.2 KB 22.1 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting lark-parser>=0.11.0
+  Downloading lark_parser-0.12.0-py2.py3-none-any.whl (103 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 103.5/103.5 KB 11.2 MB/s eta 0:00:00
+Requirement already satisfied: idna<4,>=2.5 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (3.4)
+Requirement already satisfied: certifi>=2017.4.17 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (2023.7.22)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests~=2.18->cirq-pasqal>=0.10->pennylane-cirq) (3.2.0)
+Collecting cryptography>=1.3
+  Downloading cryptography-41.0.3-cp37-abi3-manylinux_2_28_x86_64.whl (4.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.3/4.3 MB 34.3 MB/s eta 0:00:00
+Collecting ntlm-auth>=1.0.2
+  Downloading ntlm_auth-1.5.0-py2.py3-none-any.whl (29 kB)
+Collecting mpmath>=0.19
+  Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 KB 33.6 MB/s eta 0:00:00
+Collecting dask[delayed]
+  Downloading dask-2023.8.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 34.8 MB/s eta 0:00:00
+Collecting llvmlite<0.41,>=0.40.0dev0
+  Downloading llvmlite-0.40.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.1/42.1 MB 23.7 MB/s eta 0:00:00
+Collecting fire
+  Downloading fire-0.5.0.tar.gz (88 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 88.3/88.3 KB 20.8 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting pydantic[dotenv]<2
+  Downloading pydantic-1.10.12-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 35.2 MB/s eta 0:00:00
+Collecting tzdata>=2022.1
+  Using cached tzdata-2023.3-py2.py3-none-any.whl (341 kB)
+Collecting pytz>=2020.1
+  Using cached pytz-2023.3-py2.py3-none-any.whl (502 kB)
+Collecting cffi>=1.12
+  Downloading cffi-1.15.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (441 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 441.8/441.8 KB 26.8 MB/s eta 0:00:00
+Collecting PyJWT<3.0.0,>=2.4.0
+  Downloading PyJWT-2.8.0-py3-none-any.whl (22 kB)
+Collecting python-dotenv>=0.10.4
+  Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Collecting pbr!=2.1.0,>=2.0.0
+  Downloading pbr-5.11.1-py2.py3-none-any.whl (112 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 112.7/112.7 KB 23.1 MB/s eta 0:00:00
+Collecting importlib-metadata>=4.13.0
+  Downloading importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Collecting click>=8.0
+  Downloading click-8.1.6-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.9/97.9 KB 19.2 MB/s eta 0:00:00
+Collecting fsspec>=2021.09.0
+  Downloading fsspec-2023.6.0-py3-none-any.whl (163 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.8/163.8 KB 35.6 MB/s eta 0:00:00
+Collecting partd>=1.2.0
+  Downloading partd-1.4.0-py3-none-any.whl (18 kB)
+Collecting cloudpickle>=1.5.0
+  Downloading cloudpickle-2.2.1-py3-none-any.whl (25 kB)
+Collecting toolz>=0.10.0
+  Downloading toolz-0.12.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.8/55.8 KB 4.6 MB/s eta 0:00:00
+Collecting pyyaml>=5.3.1
+  Downloading PyYAML-6.0.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (705 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 705.5/705.5 KB 39.9 MB/s eta 0:00:00
+Collecting termcolor
+  Downloading termcolor-2.3.0-py3-none-any.whl (6.9 kB)
+Collecting pycparser
+  Downloading pycparser-2.21-py2.py3-none-any.whl (118 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 118.7/118.7 KB 16.4 MB/s eta 0:00:00
+Collecting zipp>=0.5
+  Downloading zipp-3.16.2-py3-none-any.whl (7.2 kB)
+Collecting locket
+  Downloading locket-1.0.0-py2.py3-none-any.whl (4.4 kB)
+Using legacy 'setup.py install' for antlr4-python3-runtime, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for thewalrus, since package 'wheel' is not installed.
+Using legacy 'setup.py install' for fire, since package 'wheel' is not installed.
+Building wheels for collected packages: qiskit, ibm-platform-services, ibm-cloud-sdk-core
+  Building wheel for qiskit (pyproject.toml): started
+  Building wheel for qiskit (pyproject.toml): finished with status 'done'
+  Created wheel for qiskit: filename=qiskit-0.44.0-py3-none-any.whl size=7614 sha256=3e0fc8ac777f904f308f532fc4529af7026067fa56073d2b19fa42fffd394277
+  Stored in directory: /home/nosrednaa/.cache/pip/wheels/45/90/00/70879ea1304b7b44cde9f737d2a819a87346d62666b3a89de1
+  Building wheel for ibm-platform-services (pyproject.toml): started
+  Building wheel for ibm-platform-services (pyproject.toml): finished with status 'done'
+  Created wheel for ibm-platform-services: filename=ibm_platform_services-0.38.0-py3-none-any.whl size=269261 sha256=fd16a88f34f7fdf60383f732c3ae98069b23c6adebd498c036836777eed2d500
+  Stored in directory: /home/nosrednaa/.cache/pip/wheels/66/d1/ce/c1e7012107226e244456bb31787947ea489cd6b4ac0dcd4223
+  Building wheel for ibm-cloud-sdk-core (pyproject.toml): started
+  Building wheel for ibm-cloud-sdk-core (pyproject.toml): finished with status 'done'
+  Created wheel for ibm-cloud-sdk-core: filename=ibm_cloud_sdk_core-3.16.7-py3-none-any.whl size=85607 sha256=093744c719df3601103b113d91ea95f5027da05da7b314be9c549430e31d540f
+  Stored in directory: /home/nosrednaa/.cache/pip/wheels/57/9c/ed/611f998db826deaeedadd824c8a0427a677136325358d79fdc
+Successfully built qiskit ibm-platform-services ibm-cloud-sdk-core
+Installing collected packages: sortedcontainers, pytz, ply, mpmath, lark-parser, antlr4-python3-runtime, zipp, websockets, websocket-client, urllib3, tzdata, tqdm, toolz, termcolor, sympy, symengine, quantum-xir, pyyaml, python-dotenv, PyJWT, pydantic, pycparser, psutil, pbr, orjson, ntlm-auth, locket, llvmlite, fsspec, duet, dill, cython, cloudpickle, click, stevedore, quantum-blackbird, partd, pandas, numba, importlib-metadata, fire, cffi, xanadu-cloud-client, qiskit-terra, ibm-cloud-sdk-core, dask, cryptography, cirq-core, requests-ntlm, qiskit, ibm-platform-services, cirq-pasqal, thewalrus, qiskit-ibmq-provider, qiskit-ibm-provider, strawberryfields, qiskit-ibm-runtime, mthree, pennylane-lightning-gpu, pennylane-sf, pennylane-qiskit, pennylane-cirq
+  Running setup.py install for antlr4-python3-runtime: started
+  Running setup.py install for antlr4-python3-runtime: finished with status 'done'
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.0.4
+    Uninstalling urllib3-2.0.4:
+      Successfully uninstalled urllib3-2.0.4
+  Running setup.py install for fire: started
+  Running setup.py install for fire: finished with status 'done'
+  Running setup.py install for thewalrus: started
+  Running setup.py install for thewalrus: finished with status 'done'
+Successfully installed PyJWT-2.8.0 antlr4-python3-runtime-4.9.2 cffi-1.15.1 cirq-core-1.2.0 cirq-pasqal-1.2.0 click-8.1.6 cloudpickle-2.2.1 cryptography-41.0.3 cython-3.0.0 dask-2023.8.0 dill-0.3.7 duet-0.2.9 fire-0.5.0 fsspec-2023.6.0 ibm-cloud-sdk-core-3.16.7 ibm-platform-services-0.38.0 importlib-metadata-6.8.0 lark-parser-0.12.0 llvmlite-0.40.1 locket-1.0.0 mpmath-1.3.0 mthree-2.5.1 ntlm-auth-1.5.0 numba-0.57.1 orjson-3.9.4 pandas-2.0.3 partd-1.4.0 pbr-5.11.1 pennylane-cirq-0.31.0 pennylane-lightning-gpu-0.31.0 pennylane-qiskit-0.31.0 pennylane-sf-0.29.0 ply-3.11 psutil-5.9.5 pycparser-2.21 pydantic-1.10.12 python-dotenv-1.0.0 pytz-2023.3 pyyaml-6.0.1 qiskit-0.44.0 qiskit-ibm-provider-0.6.3 qiskit-ibm-runtime-0.11.3 qiskit-ibmq-provider-0.20.2 qiskit-terra-0.25.0 quantum-blackbird-0.5.0 quantum-xir-0.2.2 requests-ntlm-1.1.0 sortedcontainers-2.4.0 stevedore-5.1.0 strawberryfields-0.23.0 symengine-0.9.2 sympy-1.12 termcolor-2.3.0 thewalrus-0.20.0 toolz-0.12.0 tqdm-4.66.1 tzdata-2023.3 urllib3-1.26.16 websocket-client-1.6.1 websockets-11.0.3 xanadu-cloud-client-0.3.1 zipp-3.16.2
+ 
+Requirement already satisfied: autograd in ./VEnv/PennyLane_test/lib/python3.10/site-packages (1.5)
+Collecting tensorflow
+  Downloading tensorflow-2.13.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (524.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 524.1/524.1 MB 3.9 MB/s eta 0:00:00
+Collecting jax
+  Downloading jax-0.4.14.tar.gz (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 27.1 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting jaxlib
+  Downloading jaxlib-0.4.14-cp310-cp310-manylinux2014_x86_64.whl (73.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.7/73.7 MB 17.0 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.12 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from autograd) (1.23.5)
+Requirement already satisfied: future>=0.15.2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from autograd) (0.18.3)
+Requirement already satisfied: six>=1.12.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from tensorflow) (1.16.0)
+Collecting tensorflow-io-gcs-filesystem>=0.23.1
+  Downloading tensorflow_io_gcs_filesystem-0.33.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.4/2.4 MB 30.7 MB/s eta 0:00:00
+Collecting h5py>=2.9.0
+  Downloading h5py-3.9.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 33.5 MB/s eta 0:00:00
+Collecting tensorflow-estimator<2.14,>=2.13.0
+  Downloading tensorflow_estimator-2.13.0-py2.py3-none-any.whl (440 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 440.8/440.8 KB 22.2 MB/s eta 0:00:00
+Collecting astunparse>=1.6.0
+  Downloading astunparse-1.6.3-py2.py3-none-any.whl (12 kB)
+Collecting opt-einsum>=2.3.2
+  Downloading opt_einsum-3.3.0-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 KB 7.9 MB/s eta 0:00:00
+Collecting flatbuffers>=23.1.21
+  Downloading flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+Collecting tensorboard<2.14,>=2.13
+  Downloading tensorboard-2.13.0-py3-none-any.whl (5.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.6/5.6 MB 32.8 MB/s eta 0:00:00
+Collecting protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3
+  Downloading protobuf-4.24.0-cp37-abi3-manylinux2014_x86_64.whl (311 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 311.6/311.6 KB 22.2 MB/s eta 0:00:00
+Requirement already satisfied: setuptools in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from tensorflow) (59.6.0)
+Collecting grpcio<2.0,>=1.24.3
+  Downloading grpcio-1.57.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 33.4 MB/s eta 0:00:00
+Collecting libclang>=13.0.0
+  Downloading libclang-16.0.6-py2.py3-none-manylinux2010_x86_64.whl (22.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 22.9/22.9 MB 25.4 MB/s eta 0:00:00
+Collecting wrapt>=1.11.0
+  Downloading wrapt-1.15.0-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.4/78.4 KB 7.7 MB/s eta 0:00:00
+Collecting absl-py>=1.0.0
+  Downloading absl_py-1.4.0-py3-none-any.whl (126 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 126.5/126.5 KB 9.9 MB/s eta 0:00:00
+Requirement already satisfied: packaging in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from tensorflow) (23.1)
+Requirement already satisfied: termcolor>=1.1.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from tensorflow) (2.3.0)
+Collecting google-pasta>=0.1.1
+  Downloading google_pasta-0.2.0-py3-none-any.whl (57 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 57.5/57.5 KB 6.6 MB/s eta 0:00:00
+Collecting keras<2.14,>=2.13.1
+  Downloading keras-2.13.1-py3-none-any.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 25.0 MB/s eta 0:00:00
+Collecting typing-extensions<4.6.0,>=3.6.6
+  Downloading typing_extensions-4.5.0-py3-none-any.whl (27 kB)
+Collecting gast<=0.4.0,>=0.2.1
+  Downloading gast-0.4.0-py3-none-any.whl (9.8 kB)
+Requirement already satisfied: scipy>=1.7 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from jax) (1.11.1)
+Collecting ml-dtypes>=0.2.0
+  Downloading ml_dtypes-0.2.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.0 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.0/1.0 MB 23.9 MB/s eta 0:00:00
+Collecting wheel<1.0,>=0.23.0
+  Using cached wheel-0.41.1-py3-none-any.whl (64 kB)
+Collecting google-auth-oauthlib<1.1,>=0.5
+  Downloading google_auth_oauthlib-1.0.0-py2.py3-none-any.whl (18 kB)
+Collecting google-auth<3,>=1.6.3
+  Downloading google_auth-2.22.0-py2.py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.8/181.8 KB 14.6 MB/s eta 0:00:00
+Collecting tensorboard-data-server<0.8.0,>=0.7.0
+  Downloading tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl (6.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 26.9 MB/s eta 0:00:00
+Collecting markdown>=2.6.8
+  Downloading Markdown-3.4.4-py3-none-any.whl (94 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 94.2/94.2 KB 10.2 MB/s eta 0:00:00
+Collecting werkzeug>=1.0.1
+  Downloading Werkzeug-2.3.6-py3-none-any.whl (242 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 242.5/242.5 KB 20.4 MB/s eta 0:00:00
+Requirement already satisfied: requests<3,>=2.21.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from tensorboard<2.14,>=2.13->tensorflow) (2.31.0)
+Requirement already satisfied: urllib3<2.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow) (1.26.16)
+Collecting rsa<5,>=3.1.4
+  Downloading rsa-4.9-py3-none-any.whl (34 kB)
+Requirement already satisfied: cachetools<6.0,>=2.0.0 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from google-auth<3,>=1.6.3->tensorboard<2.14,>=2.13->tensorflow) (5.3.1)
+Collecting pyasn1-modules>=0.2.1
+  Downloading pyasn1_modules-0.3.0-py2.py3-none-any.whl (181 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 181.3/181.3 KB 16.5 MB/s eta 0:00:00
+Collecting requests-oauthlib>=0.7.0
+  Downloading requests_oauthlib-1.3.1-py2.py3-none-any.whl (23 kB)
+Requirement already satisfied: idna<4,>=2.5 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow) (3.4)
+Requirement already satisfied: charset-normalizer<4,>=2 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow) (3.2.0)
+Requirement already satisfied: certifi>=2017.4.17 in ./VEnv/PennyLane_test/lib/python3.10/site-packages (from requests<3,>=2.21.0->tensorboard<2.14,>=2.13->tensorflow) (2023.7.22)
+Collecting MarkupSafe>=2.1.1
+  Downloading MarkupSafe-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+Collecting pyasn1<0.6.0,>=0.4.6
+  Downloading pyasn1-0.5.0-py2.py3-none-any.whl (83 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 83.9/83.9 KB 10.0 MB/s eta 0:00:00
+Collecting oauthlib>=3.0.0
+  Downloading oauthlib-3.2.2-py3-none-any.whl (151 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 151.7/151.7 KB 14.0 MB/s eta 0:00:00
+Building wheels for collected packages: jax
+  Building wheel for jax (pyproject.toml): started
+  Building wheel for jax (pyproject.toml): finished with status 'done'
+  Created wheel for jax: filename=jax-0.4.14-py3-none-any.whl size=1535362 sha256=a69f3342c02ca6ada0a626767abb892a989dbbb70a7334194c225b1437421104
+  Stored in directory: /home/nosrednaa/.cache/pip/wheels/85/52/e7/dfa571c9f9b879e3facaa1584f52be04c4c3d1e14054ef40ab
+Successfully built jax
+Installing collected packages: libclang, flatbuffers, wrapt, wheel, typing-extensions, tensorflow-io-gcs-filesystem, tensorflow-estimator, tensorboard-data-server, pyasn1, protobuf, opt-einsum, oauthlib, ml-dtypes, MarkupSafe, markdown, keras, h5py, grpcio, google-pasta, gast, absl-py, werkzeug, rsa, requests-oauthlib, pyasn1-modules, jaxlib, jax, astunparse, google-auth, google-auth-oauthlib, tensorboard, tensorflow
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.7.1
+    Uninstalling typing_extensions-4.7.1:
+      Successfully uninstalled typing_extensions-4.7.1
+Successfully installed MarkupSafe-2.1.3 absl-py-1.4.0 astunparse-1.6.3 flatbuffers-23.5.26 gast-0.4.0 google-auth-2.22.0 google-auth-oauthlib-1.0.0 google-pasta-0.2.0 grpcio-1.57.0 h5py-3.9.0 jax-0.4.14 jaxlib-0.4.14 keras-2.13.1 libclang-16.0.6 markdown-3.4.4 ml-dtypes-0.2.0 oauthlib-3.2.2 opt-einsum-3.3.0 protobuf-4.24.0 pyasn1-0.5.0 pyasn1-modules-0.3.0 requests-oauthlib-1.3.1 rsa-4.9 tensorboard-2.13.0 tensorboard-data-server-0.7.1 tensorflow-2.13.0 tensorflow-estimator-2.13.0 tensorflow-io-gcs-filesystem-0.33.0 typing-extensions-4.5.0 werkzeug-2.3.6 wheel-0.41.1 wrapt-1.15.0
